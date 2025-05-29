@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct AnimationsApp: App {
+    @StateObject private var appData = DataModel()
     var body: some Scene {
         WindowGroup {
-            CirclesView()
+            ElevatorView(appData: appData)
         }
     }
 }
