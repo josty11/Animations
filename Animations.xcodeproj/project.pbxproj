@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4974D6BC2DF0CE1A00D42FD2 /* SunMoonToggleStyle in Frameworks */ = {isa = PBXBuildFile; productRef = 4974D6BB2DF0CE1A00D42FD2 /* SunMoonToggleStyle */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4903D96B2DD2809C00438763 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4974D6BC2DF0CE1A00D42FD2 /* SunMoonToggleStyle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Animations;
 			packageProductDependencies = (
+				4974D6BB2DF0CE1A00D42FD2 /* SunMoonToggleStyle */,
 			);
 			productName = animateCircles;
 			productReference = 4903D96B2DD2809C00438763 /* Animations.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 4903D9622DD2809C00438763;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4974D6BA2DF0CE1A00D42FD2 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4903D96C2DD2809C00438763 /* Products */;
 			projectDirPath = "";
@@ -320,6 +329,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4974D6BA2DF0CE1A00D42FD2 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/puthnith/SunMoonToggleStyle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4974D6BB2DF0CE1A00D42FD2 /* SunMoonToggleStyle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4974D6BA2DF0CE1A00D42FD2 /* XCRemoteSwiftPackageReference "SunMoonToggleStyle" */;
+			productName = SunMoonToggleStyle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4903D9632DD2809C00438763 /* Project object */;
 }
