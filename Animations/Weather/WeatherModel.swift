@@ -2,7 +2,7 @@
 //  WeatherModel.swift
 //  Animations
 //
-//  Created by Татьяна on 04/06/25.
+//  Created by Tatiana on 04/06/25.
 //
 
 import SwiftUI
